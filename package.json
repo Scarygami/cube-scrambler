@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/icyflame/rubiks-cube-scrambler.git"
+		"url": "git+https://github.com/icyflame/node-cube-scrambler.git"
 	},
 	"author": "Siddharth Kannan <kannan.siddharth12@gmail.com> (http://icyflame.github.io)",
 	"contributors": [
