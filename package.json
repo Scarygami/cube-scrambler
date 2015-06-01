@@ -1,6 +1,6 @@
 {
 	"name": "cube-scrambler",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Want a scramble? Just say scramble from your CLI!",
 	"main": "index.js",
 	"scripts": {
