@@ -1,8 +1,16 @@
 Rubik's Cube Scrambler
 ======================
 
-This is a super simple Rubik's Cube scrambler written in JavaScript. It's meant
-to be fast, lightweight, run completely in your browser, and not be annoying to
-use on mobile devices. Read the comments in the code for details on how it works.
+> Want a scramble? Say `scramble` on your CLI!
 
-Try it here: <http://jnrbsn.github.io/rubiks-cube-scrambler/>
+NPM module that can be used from the CLI as well as other NPM modules to
+generate Rubik's Cube scrambles.
+
+Huge thanks to @jnrbsn who has written the core code for this 
+module. Find the original repository here: [jnrbsn/rubiks-cube-scrambler](https://github.com/jnrbsn/rubiks-cube-scrambler).
+
+(I am just the guy who packaged it into a module!)
+
+Code licensed under MIT.
+
+Copyright Siddharth Kannan 2015.
