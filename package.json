@@ -1,6 +1,6 @@
 {
   "name": "cube-scrambler",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "description": "Want a scramble? Just say scramble from your CLI!",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Siddharth Kannan <kannan.siddharth12@gmail.com> (http://icyflame.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jnrbsn/rubiks-cube-scrambler/issues"
+    "url": "https://github.com/icyflame/node-cube-scrambler/issues"
   },
-  "homepage": "https://github.com/jnrbsn/rubiks-cube-scrambler#readme"
+  "homepage": "https://github.com/icyflame/node-cube-scrambler#readme"
 }
