@@ -21,5 +21,15 @@
 	"bugs": {
 		"url": "https://github.com/icyflame/node-cube-scrambler/issues"
 	},
-	"homepage": "https://github.com/icyflame/node-cube-scrambler#readme"
+	"homepage": "https://github.com/icyflame/node-cube-scrambler#readme",
+	"keywords": [
+		"cli",
+		"rubiks",
+		"cube",
+		"scramble",
+		"algorithms",
+		"alg",
+		"cli-app",
+		"api"
+	]
 }
