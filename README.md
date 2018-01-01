@@ -6,7 +6,19 @@ Rubik's Cube Scrambler
 NPM module that can be used from the CLI as well as other NPM modules to
 generate Rubik's Cube scrambles.
 
-Huge thanks to @jnrbsn who has written the core code for this 
+# Getting started
+```
+npm install --save cube-scrambler
+```
+
+```javascript
+const cubeScrambler = require("cube-scrambler")();
+
+cubeScrambler.scramble();
+// ["U", "D2", "L'", ...]
+```
+
+Huge thanks to @jnrbsn who has written the core code for this
 module. Find the original repository here: [jnrbsn/rubiks-cube-scrambler](https://github.com/jnrbsn/rubiks-cube-scrambler).
 
 (I am just the guy who packaged it into a module!)
