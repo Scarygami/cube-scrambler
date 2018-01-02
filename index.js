@@ -67,8 +67,8 @@ module.exports = function(){
 		scramble: function (reqScrambleLen) {
 			var count = 0, total = 25, state, prevState = cube.states[cube.states.length - 1],
 			move, moves = [], modifiers = ["", "'", "2"];
-			if (reqScrambleLen !== undefined 
-			    && type reqScrambleLen === "number" 
+			if (reqScrambleLen !== undefined
+			    && typeof reqScrambleLen === "number"
 			    && reqScrambleLen > 0) {
 				total = reqScrambleLen;
 			}
