@@ -64,9 +64,14 @@ module.exports = function(){
 			return state.join("");
 		},
 		// Scramble the cube
-		scramble: function (total = 25) {
-			var count = 0, state, prevState = cube.states[cube.states.length - 1],
+		scramble: function (reqScrambleLen) {
+			var count = 0, total = 25, state, prevState = cube.states[cube.states.length - 1],
 			move, moves = [], modifiers = ["", "'", "2"];
+			if (reqScrambleLen !== undefined 
+			    && type reqScrambleLen === "number" 
+			    && reqScrambleLen > 0) {
+				total = reqScrambleLen;
+			}
 			while (count < total) {
 				// Generate a random move
 				move = cube.faces[Math.floor(Math.random() * 6)] + modifiers[Math.floor(Math.random() * 3)];
