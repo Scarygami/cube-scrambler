@@ -12,7 +12,7 @@ npm install --save cube-scrambler
 ```
 
 ```javascript
-const cubeScrambler = require("cube-scrambler")();
+import cubeScrambler from 'cube-scrambler';
 
 cubeScrambler.scramble();
 // ["U", "D2", "L'", ...]

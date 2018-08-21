@@ -3,12 +3,6 @@
 	"version": "1.1.0",
 	"description": "Want a scramble? Just say scramble from your CLI!",
 	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"bin": {
-		"scramble": "./cli.js"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/icyflame/node-cube-scrambler.git"
