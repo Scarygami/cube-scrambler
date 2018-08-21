@@ -95,4 +95,4 @@ const cube = {
 };
 cube.reset();
 
-export default {cube};
+export default cube;
