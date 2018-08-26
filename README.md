@@ -1,11 +1,6 @@
 Rubik's Cube Scrambler
 ======================
 
-> Want a scramble? Say `scramble` on your CLI!
-
-NPM module that can be used from the CLI as well as other NPM modules to
-generate Rubik's Cube scrambles.
-
 # Getting started
 ```
 npm install --save cube-scrambler
